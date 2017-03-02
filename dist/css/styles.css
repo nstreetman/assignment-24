@@ -2,10 +2,20 @@
   box-sizing: border-box; }
 
 body {
-  background: limegreen; }
+  background: #F22613;
+  width: 80%;
+  align-self: center; }
+
+#app-container {
+  width: 80%;
+  align-self: center; }
 
 h2 {
-  color: maroon;
-  border-bottom: 4px solid maroon; }
+  color: #F7CA18; }
+
+.container-div {
+  background-color: #fff;
+  align-left: auto;
+  align-right: auto; }
 
 /*# sourceMappingURL=styles.css.map*/
