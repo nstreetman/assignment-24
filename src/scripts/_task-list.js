@@ -91,9 +91,8 @@ const ListItem = React.createClass({
       console.log (arrayOfTaskObjects)
       return (
             <tr>
-              <td><input type="checkbox" className="checkbox" value="checkbox"></input></td>
-              <td>{ObjTasks.task}</td>
-              <td><i className="fa fa-trash-o" aria-hidden="true" onClick={component._handleRemoveClick} data-id={ObjTasks.id} ></i></td>
+              <td className="task">{ObjTasks.task}</td>
+              <td className="trash"><i className="fa fa-trash-o" aria-hidden="true" onClick={component._handleRemoveClick} data-id={ObjTasks.id}></i></td>
             </tr>
 
       )
