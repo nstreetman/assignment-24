@@ -1,8 +1,9 @@
 import $ from 'jquery';
 import Backbone from 'backbone';
-import React from 'react'
-import ReactDOM from 'react-dom'
-import {MyTaskList} from './_task-list.js'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import {MyTaskList} from './_task-list.js';
+// import {FilterList} from './_delete_item.js';
 
 const AppRouter = Backbone.Router.extend({
 	initialize: function(){

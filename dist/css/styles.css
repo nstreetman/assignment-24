@@ -3,19 +3,48 @@
 
 body {
   background: #F22613;
-  width: 80%;
-  align-self: center; }
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px; }
 
-#app-container {
-  width: 80%;
-  align-self: center; }
+.container-div {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto; }
 
-h2 {
-  color: #F7CA18; }
+h1 {
+  padding: 25px;
+  font-family: 'Special Elite', cursive;
+  text-align: right; }
 
 .container-div {
   background-color: #fff;
   align-left: auto;
   align-right: auto; }
+
+.task-input-box {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.btn div {
+  margin-left: auto;
+  margin-right: auto; }
+
+.span {
+  padding-left: 25px; }
+
+i {
+  font-size: 28px;
+  color: #000; }
+
+i .fa-trash-o {
+  text-align: right; }
+
+.list-item-format {
+  width: 100%;
+  table-layout: fixed; }
+
+.list-item-format tr {
+  border-bottom: 1px solid #000; }
 
 /*# sourceMappingURL=styles.css.map*/
