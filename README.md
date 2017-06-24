@@ -1,3 +1,34 @@
+Assignment 23 - React Todo List
+
+Objectives
+
+Apply event listeners in React.
+Understand the distinction between state and props in React.
+Change state of react components.
+Capture user input using refs on elements.
+Modify the top-level state of a component from a lower-level component.
+Setup Instructions
+
+cd into your ~/TIY/assignments directory and clone webpack-simple-server repo into an assignment-«XX» project-directory
+git clone git@github.com:t3tools/webpack-simple-server.git assignment-xx
+Install the project's dependencies from the package.json
+npm install
+After installation completes, start the task runner and local webserver:
+npm run go
+Build the project per requirements.
+Normal Mode -add a new task and see it appear in a list of pending tasks.
+remove a task from the list.
+
+Explorer Mode -add additional information about a task, such as its urgency status and due date.
+you will need to use <input type="date"/> and <input type="checkbox"> to capture this information
+
+
+Adventure Mode -Instead of simply removing a completed task, a user should be able to toggle that task's completion status.
+
+A hint on implementation:
+When one of your low-level UI components (e.g., TodoItem) receives user input to change a task from undone to done or vice versa, it needs to notify the top-level, "smart" component, so that that component can re-set its state.
+
+
 #ES6 Module Bundler Setup
 
 ##Setup 
